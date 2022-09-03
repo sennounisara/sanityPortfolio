@@ -14,9 +14,9 @@ export default {
         type: 'string',
       },
       {
-        name: 'description',
+        name : 'description',
         title: 'Description',
-        type: 'text',
+        type : 'text',
       },
       {
         name :'image',
