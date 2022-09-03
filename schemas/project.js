@@ -23,13 +23,12 @@ export default {
         title:"Image",
         type :'array',
         of:[
-            {
-                title: "Room Image",
-                name : "roomImage",
-                type : "image",
-            }
+          {
+            title: "Room Image",
+            name : "roomImage",
+            type : "image",
+          }
         ]
       },
     ],
-  }
-  
+}
