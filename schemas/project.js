@@ -9,9 +9,9 @@ export default {
         type: 'string',
       },
       {
-        name: 'soustitle',
+        name : 'soustitle',
         title: 'Sous-Title',
-        type: 'string',
+        type : 'string',
       },
       {
         name : 'description',
