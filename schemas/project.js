@@ -19,9 +19,9 @@ export default {
         type: 'text',
       },
       {
-        name:'image',
+        name :'image',
         title:"Image",
-        type:'array',
+        type :'array',
         of:[
             {
                 title: "Room Image",
