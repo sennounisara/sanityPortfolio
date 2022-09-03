@@ -25,8 +25,8 @@ export default {
         of:[
             {
                 title: "Room Image",
-                name: "roomImage",
-                type: "image",
+                name : "roomImage",
+                type : "image",
             }
         ]
       },
