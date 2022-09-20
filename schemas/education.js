@@ -19,8 +19,8 @@ export default{
                     name: 'categorie',
                     type: 'object',
                     fields: [
-                      {name: 'nom', type: 'string', title: 'Etablissemt / campany'},
-                      {name: 'image', type: 'image', title: 'Logo de catégorie'},
+                      {name: 'etablissemnt', type: 'string', title: 'Etablissemt / campany'},
+                      {name: 'logo', type: 'image', title: 'Logo de catégorie'},
                       {name: 'description', type: 'text', title: 'Description'}
                     ]
                   }
