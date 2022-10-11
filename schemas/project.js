@@ -9,8 +9,8 @@ export default {
         type : 'string',
       },
       {
-        name : 'soustitle',
-        title: 'Sous-Title',
+        name : 'technologie',
+        title: 'Technologie',
         type : 'string',
       },
       {
