@@ -13,16 +13,15 @@ export default {
             title: 'Detail',
             type : 'array',
             of : [
-              {
-                name: 'title',
-                title: 'Title',
-                type: 'text',
-              },
-              {
-                name: 'content',
-                title: 'Content',
-                type: 'text',
-              }
+                {
+                    name:'information',
+                    title:'Information',
+                    type:'object',
+                    fields:[
+                        {name:'title',title:'Title ',type:'string'},
+                        {name:'value',title:'Value',type:'string'},
+                    ]
+                }
             ]
         },
         {
