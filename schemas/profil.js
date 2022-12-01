@@ -9,13 +9,13 @@ export default {
             type: 'string',
         },
         {
-            name: 'Description',
-            title: 'description',
+            name: 'descriptionBlock',
+            title: 'Description',
             type: 'text',
         },
         {
-            name: 'Image',
-            title: 'image',
+            name: 'imageBlock',
+            title: 'Image',
             type: 'image',
         }
     ]

@@ -9,20 +9,20 @@ export default {
             type: 'string',
         },
         {
-            name : 'listeDetail',
-            title: 'Detail',
-            type : 'array',
-            of : [
-                {
-                    name:'information',
-                    title:'Information',
-                    type:'object',
-                    fields:[
-                        {name:'title',title:'Title ',type:'string'},
-                        {name:'value',title:'Value',type:'string'},
-                    ]
-                }
-            ]
+          name : 'listeDetail',
+          title: 'Detail',
+          type : 'array',
+          of : [
+            {
+              name:'information',
+              title:'Information',
+              type:'object',
+                fields:[
+                  {name:'title',title:'Title ',type:'string'},
+                  {name:'value',title:'Value',type:'string'},
+              ]
+            }
+          ]
         },
         {
             name: 'button',
